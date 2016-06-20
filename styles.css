@@ -116,9 +116,5 @@ li.game-bottom-bottom{
 }
 
 li.game.winner{
-  font-weight:bold;
-  color: black;
-  background-color: #f2c057;
-  border-bottom-style: none;
-  border-top-style: none;
+  color: $h1-header;
 }
