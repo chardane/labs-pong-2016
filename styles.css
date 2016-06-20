@@ -1,27 +1,21 @@
-@import 'https://fonts.googleapis.com/css?family=Bangers|Bungee+Inline|Bungee+Shade|Lalezar|Roboto|Sriracha';
-
-$background: #4c3f54;
-$h1-header: #f2c057;
-$lighterbg: #73607F;
-$pending: #73607F;
-$players: white;
+/*@import 'https://fonts.googleapis.com/css?family=Bangers|Bungee+Inline|Bungee+Shade|Lalezar|Roboto|Sriracha';*/
 /*
 *  Flex Layout Specifics
 */
 body {
-  background-color: $background;
+  background-color: #4c3f54;
 }
 
 h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 3em;
-  color: $h1-header;
+  color: #f2c057;
 }
 
 h2 {
   font-family: 'Bungee Inline', cursive;
   font-size: 2em;
-  color: $h1-header;
+  color: #f2c057;
 }
 
 main{
@@ -38,7 +32,7 @@ main{
   width:600px;
   list-style:none;
   padding:0;
-  color: $players;
+  color: white;
 }
 .round .spacer{ flex-grow:1; }
 .round .spacer:first-child,
@@ -60,10 +54,10 @@ body{
 
 li.game{
   padding-left:20px;
-  border-top-color: $lighterbg;
-  border-bottom-color: $lighterbg;
-  border-left-color: $lighterbg;
-  border-right-color: $lighterbg;
+  border-top-color: #73607F;
+  border-bottom-color: #73607F;
+  border-left-color: #73607F;
+  border-right-color: #73607F;
 }
 
 
@@ -72,62 +66,59 @@ li.game span{
   margin-right:5px;
 }
 li.game.pending {
-  color: $pending;
+  color: #73607F;
 }
 
-li.game-spacer{ 
+li.game-spacer{
   border-right-width:1px;
   border-right-style: solid;
   min-height:50px;
 }
 
-li.game-bottom{ 
+li.game-bottom{
   border-top-width:1px;
   border-top-style: solid;
 }
 
-li.game-top-top{ 
-  border-bottom-width:1px; 
+li.game-top-top{
+  border-bottom-width:1px;
   border-bottom-style: solid;
   margin-top: 10px;
 }
 
-li.game-top-bottom{ 
+li.game-top-bottom{
   border-top-width:1px;
   border-top-style: solid;
   border-right-width:1px;
   border-right-style: solid;
 }
-li.game-bottom-top{ 
+li.game-bottom-top{
   border-bottom-width:1px;
   border-bottom-style: solid;
   border-right-width:1px;
   border-right-style: solid;
 }
 
-li.game-bottom-bottom{ 
+li.game-bottom-bottom{
   border-top-width:1px;
   border-top-style: solid;
   margin-bottom: 10px
 }
 
 .round .current {
-  border-color: $h1-header;
-  border-width: 2px;
+  border-color: #f2c057;
+  border-width: 5px;
   border-style: solid;
-  border-color: $h1-header;
+  border-color: #f2c057;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: -12px;
+  margin-right: -15px;
 }
 
 li.game.winner{
   font-weight:bold;
   color: black;
-  background-color: $h1-header;
+  background-color: #f2c057;
   border-bottom-style: none;
   border-top-style: none;
 }
-
-
-
